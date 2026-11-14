@@ -317,3 +317,16 @@
   .prose-editorial { font-size: min(var(--reader-size, 16.5px), 16px); line-height: 1.85; }
   .prose-editorial h2 { margin-top: 44px; padding-top: 30px; font-size: 1.38em; }
 }
+
+/* 选址评估报告：打印 / 另存 PDF 时只保留报告正文 */
+@media print {
+  body { background: #fff; font-size: 12pt; }
+  body::before, header, footer, nav, .no-print, .ss-mobile-bar { display: none !important; }
+  .ss-report { border: 0 !important; box-shadow: none !important; padding: 0 !important; }
+  .ss-report section { break-inside: avoid; page-break-inside: avoid; }
+  .card { box-shadow: none !important; break-inside: avoid; }
+  a[href]::after { content: ''; }
+  .wrap, .wrap-wide { max-width: none; padding: 0; }
+  .section-space { padding: 12px 0 !important; }
+  @page { margin: 16mm; }
+}

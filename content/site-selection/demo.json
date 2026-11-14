@@ -1,0 +1,53 @@
+{
+  "notice": "以下全部为演示案例数据，用于说明字段、计算口径与阅读方式；不代表任何真实铺位、真实商圈、行业平均值或投资建议。请用自己的现场记录替换。",
+  "shop": {
+    "name": "演示铺位 · 城东社区沿街",
+    "area": 86,
+    "monthlyRent": 18000,
+    "estimatedMonthlyRevenue": 108000,
+    "rentToSales": 0.1667,
+    "score": 72,
+    "scoreLabel": "可继续调查，不建议现在签约",
+    "risks": ["排烟条件待物业书面确认", "仅完成 2 / 6 轮客流调查", "转让费与设备归属未核实"],
+    "tags": ["社区底商", "临街一楼", "晚市型"]
+  },
+  "trafficTimes": {
+    "labels": ["07:30", "08:30", "11:30", "12:30", "14:30", "17:30", "19:30", "21:00"],
+    "passers": [420, 610, 980, 1120, 340, 860, 720, 260],
+    "target": [96, 152, 430, 512, 88, 372, 318, 74]
+  },
+  "weekdayWeekend": {
+    "labels": ["早高峰", "午餐", "下午", "晚餐"],
+    "weekday": [610, 1120, 340, 860],
+    "weekend": [280, 940, 720, 1080]
+  },
+  "audience": [
+    { "name": "上班族 / 通勤", "value": 38 },
+    { "name": "周边住户", "value": 31 },
+    { "name": "家庭与儿童", "value": 18 },
+    { "name": "学生", "value": 8 },
+    { "name": "其他 / 游客", "value": 5 }
+  ],
+  "competition": [
+    { "name": "同类 A（150m）", "distance": 150, "dailyOrders": 210, "price": 45 },
+    { "name": "同类 B（320m）", "distance": 320, "dailyOrders": 160, "price": 38 },
+    { "name": "替代品类 C（80m）", "distance": 80, "dailyOrders": 290, "price": 26 },
+    { "name": "替代品类 D（500m）", "distance": 500, "dailyOrders": 120, "price": 52 },
+    { "name": "同类 E（700m）", "distance": 700, "dailyOrders": 95, "price": 42 }
+  ],
+  "scoreDimensions": ["商圈潜力", "目标客群", "客流质量", "门头可见度", "到达便利性", "竞品情况", "租金压力", "工程条件", "外卖条件", "合规条件"],
+  "scoreValues": [8, 7, 6, 8, 7, 5, 5, 6, 8, 4],
+  "candidates": [
+    { "name": "演示 A · 社区沿街", "rent": 18000, "revenue": 108000, "breakeven": 82000, "score": 72 },
+    { "name": "演示 B · 商场三层", "rent": 26000, "revenue": 135000, "breakeven": 118000, "score": 64 },
+    { "name": "演示 C · 写字楼底商", "rent": 21000, "revenue": 96000, "breakeven": 91000, "score": 58 }
+  ],
+  "riskDistribution": [
+    { "name": "合规与产权", "value": 5 },
+    { "name": "工程条件", "value": 4 },
+    { "name": "客流不确定", "value": 6 },
+    { "name": "租金压力", "value": 5 },
+    { "name": "竞争饱和", "value": 3 },
+    { "name": "合同条款", "value": 4 }
+  ]
+}

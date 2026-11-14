@@ -2,17 +2,17 @@
 
 import { useEffect, useRef } from 'react';
 import * as echarts from 'echarts/core';
-import { BarChart, FunnelChart, LineChart, PieChart, ScatterChart } from 'echarts/charts';
+import { BarChart, FunnelChart, LineChart, PieChart, RadarChart, ScatterChart } from 'echarts/charts';
 import {
   GraphicComponent, GridComponent, LegendComponent, MarkAreaComponent,
-  MarkLineComponent, MarkPointComponent, TooltipComponent,
+  MarkLineComponent, MarkPointComponent, RadarComponent, TooltipComponent,
 } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
 import type { EChartsCoreOption } from 'echarts/core';
 
 echarts.use([
-  BarChart, LineChart, PieChart, ScatterChart, FunnelChart,
-  GridComponent, TooltipComponent, LegendComponent, GraphicComponent,
+  BarChart, LineChart, PieChart, ScatterChart, FunnelChart, RadarChart,
+  GridComponent, TooltipComponent, LegendComponent, GraphicComponent, RadarComponent,
   MarkLineComponent, MarkAreaComponent, MarkPointComponent,
   CanvasRenderer,
 ]);

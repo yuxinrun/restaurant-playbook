@@ -1,0 +1,9 @@
+[
+  { "id": "verify-traffic", "question": "房东说客流很大，自己应该怎么验证？", "answer": "把「很大」翻译成六个数字：哪天、哪个时段、哪个方向、经过多少人、其中像目标客群多少人、有多少人停下或进店。至少覆盖工作日午晚与周末白天/晚餐，再对比同街竞品进店人数。房东的客流是印象，你的记录才是数据。", "article": "ss-07-passers-not-customers", "tool": "traffic-counter" },
+  { "id": "cheap-transfer", "question": "为什么转让费便宜也不能随便接？", "answer": "转让费便宜常常是因为接手成本高：欠租欠费、设备不归转让方、原租约禁止转让、会员储值要你兑付、排烟或消防条件不达标。先查清「上一任为什么走」，再谈价格。", "article": "ss-14-transfer-fee", "tool": "lease-checklist" },
+  { "id": "mall-trap", "question": "商场铺位看起来漂亮，为什么可能不赚钱？", "answer": "把固定租金、抽成扣点、物业、推广费、空调加时、垃圾清运与装修期一并列入总成本，再看商场本身的客流时段与楼层动线。漂亮是装修，抽成是财务。", "article": "ss-11-mall-costs", "tool": "rent-negotiation" },
+  { "id": "first-floor", "question": "临街一楼一定比二楼好吗？", "answer": "不一定。看的是「顾客找不找得到、进不进得来、愿不愿意上去」。一楼租金可能翻倍，但若门前是赶路人流、无停车、门头被遮，二楼带独立入口与明确招牌的目的性消费反而更划算。", "article": "ss-05-fifteen-details", "tool": "scorecard" },
+  { "id": "same-street", "question": "同一条街，为什么隔壁赚钱你却亏钱？", "answer": "同一条街不等于同一批客：门头宽度、开门方向、人流侧、排队空间、外卖取餐、品类与价格带、营业时段都可能不同。用竞品调查表逐项对齐，别只比「都在一条街」。", "article": "ss-08-competitor-survey", "tool": "compare" },
+  { "id": "cheap-rent", "question": "租金便宜，为什么最后成本更高？", "answer": "便宜通常对应某项缺失：不能排烟、电力不足、物业费高、递增快、免租期为零、要重做上下水、外卖骑手进不来。把整段租期总成本与改造投入一起算，才知道便宜是不是真的。", "article": "ss-10-rent-ratio", "tool": "rent-negotiation" },
+  { "id": "fifteen-checks", "question": "签约前一定要确认的 15 件事", "answer": "出租权与产权、房屋用途能否办餐饮、排烟、排污、上下水、电力容量、燃气、消防、装修审批、租期与免租期、递增与押金、续租与转租、提前解约、招牌外摆、租金起算日。逐项要书面答案，口头承诺不算。", "article": "ss-16-lease-clauses", "tool": "lease-checklist" }
+]

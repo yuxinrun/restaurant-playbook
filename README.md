@@ -55,6 +55,29 @@ npm run dev
 
 配套内容：20 个品牌统一 12 节结构拆解、11 本书原创笔记、20 个行业网站导航、7 条主题阅读路径、12 类避坑指南、12 阶段开店路线图、10 个热门经营问题与 6 个计算器。
 
+## 餐饮选址实验室（独立频道）
+
+入口 `/site-selection/`，主站顶栏有「选址实验室」入口。定位是**选址决策与谈判工具平台**，不是普通文章栏目：复用主站的 `PageHeader` / `SectionHeading` / `ArticleCover` / `EChart`、设计 Token、Markdown 内容结构与 `lib/calculators.ts` 的租金承受力逻辑，不重建网站，也不重复开发已有计算器。
+
+| 路由 | 内容 |
+| --- | --- |
+| `/site-selection/` | 独立首页：16 步路线图、快速评估、避坑精选、16 主题、工具与演示图表 |
+| `/roadmap` | 16 步流程，每步含目标 / 任务 / 方法 / 数据 / 工具 / 常见错误 / 通过标准，进度可勾选保存 |
+| `/guides` · `/guides/<slug>` | 20 篇深度文章，支持主题筛选、目录、字号、复制与打印 |
+| `/fieldwork` | 六轮调查排期、15 项铺位细节、12 个记录字段与四个客流口径 |
+| `/negotiation` | 16 阶段 × 3 种风格话术 + 7 个完整场景，一键复制 |
+| `/lease` | 22 项合同检查，可勾选、备注、标待核实、导出 CSV，附交房与开业倒排 |
+| `/cases` | 品牌选址研究、12 类模拟失败案例、13 类场景与 12 类品类矩阵 |
+| `/tools` · `/tools/<slug>` | 8 个实战工具，公式公开、输入实时更新、图表随数据变化 |
+| `/charts` | 12 类 ECharts 图表的口径说明与演示 |
+| `/reports` | 汇总本机数据生成《餐饮店铺选址评估报告》，支持打印 / PDF、CSV、JSON |
+
+**内容结构**：`content/site-selection/*.json` 存放主题、路线图、工具元数据、话术、案例、合同清单、现场方法、场景矩阵与演示数据；`content/site-selection/articles/*.md` 是 20 篇正文。文章 front matter 用 `title, subtitle, summary, topic, order, tags, readingMinutes, publishedAt, updatedAt, charts, tools, sources, seoDescription`；`topic` 取 `topics.json` 中的 id。正文可插入 `[[sschart:图表ID]]`（ID 见 `lib/site-selection/charts.ts` 的 `SITE_CHART_IDS`）与 `[[sstool:工具slug]]`，与渲染器 `SiteArticleBody` 对应。
+
+**数据与计算**：`lib/site-selection/calc.ts` 是不依赖 DOM 的纯函数内核；`store.ts` 用 `localStorage`（键集中在 `SS_KEYS`）保存路线图进度、考察记录、客流、评分、租金方案、预测、候选铺位与合同核查，第一阶段无账号、不上传；`export.ts` 提供 CSV / JSON 下载、话术复制与打印。`reports` 页自动汇总这些数据，缺失项明确列为待核实，不替用户补数字。清理浏览器数据会清空记录，重要数据请导出留档。
+
+**静态导出兼容**：`/guides?topic=` 的参数读取被隔离在 `GuidesBrowser` 内部的 Suspense 子组件中，文章列表正文仍会完整预渲染；`sitemap.ts` 与 `lib/search-index.server.ts` 已收录该频道的页面、文章与工具。
+
 ## 新增一篇文章
 
 1. 在 `content/articles/` 新建 `<slug>.md`，front matter 字段：`title, subtitle, summary, category, tags, author, publishedAt, updatedAt, readingMinutes, featured, cover, coverTone, chart, relatedTools, relatedBooks, sources, seoDescription`。
@@ -90,6 +113,7 @@ npm run dev
 ```
 .github/workflows/deploy-pages.yml   GitHub Actions 自动构建并部署 GitHub Pages
 app/                    页面与路由（首页、6 频道、文章、品牌、书籍、工具、避坑、搜索、收藏、关于）
+app/site-selection/     餐饮选址实验室独立频道（首页、路线图、指南、现场、谈判、合同、案例、工具、图表、报告）
 app/api/content/        只读内容 API（仅服务端部署可用）
 components/
   ui/                   设计系统基础组件（卡片、封面、章节标题、页头、迷你趋势图）
@@ -98,11 +122,14 @@ components/
   charts/               ECharts 封装、图表卡片、交互式盈亏平衡 / 趋势图
   articles/             文章卡片、阅读器、Markdown 渲染、收藏按钮、列表筛选
   tools/                数据驱动的实时计算器
+  site-selection/       选址模块组件、文章阅读器与 8 个工具（tools/ 子目录）
   brands/ search/ favorites/ guide/   对应交互组件
 content/
   articles/*.md         19 篇实战长文（front matter + 正文）
   data/*.json           分类、指标、路线图、书籍、网站、品牌、避坑、工具、来源、精选、主题路径、热门问题、链接报告
+  site-selection/       选址模块 10 份 JSON 数据 + articles/ 下 20 篇实战长文
 lib/                    类型、仓储层、内容读取、搜索、计算内核、图表配置、站点 URL、本地状态
+lib/site-selection/     选址模块类型、数据、文章仓储、纯函数计算、本地持久化、导出、图表配置
 docs/CONTENT_MODEL.md   数据模型、后台写入接口契约、SEO 说明
 scripts/
   build-pages.mjs       GitHub Pages 静态构建（设置 export / basePath / trailingSlash）

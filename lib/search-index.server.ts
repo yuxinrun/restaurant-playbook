@@ -1,5 +1,7 @@
 import { books, brands, categories, pitfalls, tools, websites, categoryName } from '@/lib/data';
 import { getArticleMetas } from '@/lib/content';
+import { getSiteArticleMetas } from '@/lib/site-selection/content';
+import { siteTools } from '@/lib/site-selection/data';
 import type { SearchDoc } from '@/lib/types';
 
 /** 仅在服务端调用：把分散的内容集合汇总成一份可序列化的搜索索引。 */
@@ -18,6 +20,35 @@ export function buildSearchIndex(): SearchDoc[] {
       tags: a.tags,
       keywords: [a.title, a.subtitle, a.summary, ...a.tags].join(' '),
       badge: categoryName(a.category),
+    });
+  }
+
+  for (const a of getSiteArticleMetas()) {
+    docs.push({
+      id: `site-article:${a.slug}`,
+      type: 'article',
+      title: a.title,
+      subtitle: `选址实验室 · ${a.subtitle}`,
+      description: a.summary,
+      url: `/site-selection/guides/${a.slug}`,
+      category: 'start',
+      tags: ['选址实验室', ...a.tags],
+      keywords: [a.title, a.subtitle, a.summary, ...a.tags].join(' '),
+      badge: '选址实验室',
+    });
+  }
+
+  for (const t of siteTools) {
+    docs.push({
+      id: `site-tool:${t.slug}`,
+      type: 'tool',
+      title: t.name,
+      subtitle: `选址实验室 · ${t.short}`,
+      description: t.description,
+      url: `/site-selection/tools/${t.slug}`,
+      tags: ['选址实验室', '选址工具'],
+      keywords: [t.name, t.short, t.description, ...t.outputs, ...t.formula].join(' '),
+      badge: '选址工具',
     });
   }
 
@@ -91,6 +122,18 @@ export function buildSearchIndex(): SearchDoc[] {
       badge: '避坑指南',
     });
   }
+
+  docs.push({
+    id: 'site-selection:channel',
+    type: 'tag',
+    title: '餐饮选址实验室',
+    subtitle: '独立频道 · 从找铺到签约',
+    description: '16 步路线图、20 篇实战指南、8 个可保存的选址工具与 12 类数据图表。',
+    url: '/site-selection',
+    tags: ['选址', '选址实验室'],
+    keywords: '选址 实验室 找铺 客流 租金 谈判 合同 评估报告',
+    badge: '频道',
+  });
 
   const tagSet = new Map<string, string[]>();
   for (const d of docs) {

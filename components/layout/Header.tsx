@@ -9,6 +9,7 @@ import { SearchDialog } from './SearchDialog';
 
 const NAV = [
   { label: '首页', href: '/' },
+  { label: '选址实验室', href: '/site-selection' },
   { label: '开店指南', href: '/guide' },
   { label: '经营管理', href: '/operations' },
   { label: '菜单与产品', href: '/menu' },
