@@ -1,0 +1,190 @@
+{
+  "checkedAt": "2026-11-14 12:24",
+  "total": 61,
+  "ok": 55,
+  "results": {
+    "https://www.canyin88.com/": {
+      "status": 200
+    },
+    "https://canyinlaoban.cn/": {
+      "status": "ERR"
+    },
+    "https://www.meituan.com/": {
+      "status": 200
+    },
+    "https://www.chinahotel.org.cn/": {
+      "status": 200
+    },
+    "https://www.ccas.com.cn/": {
+      "status": "ERR"
+    },
+    "https://www.canyandata.com/": {
+      "status": 200
+    },
+    "https://www.canyinj.com/": {
+      "status": 200
+    },
+    "https://www.stats.gov.cn/": {
+      "status": 200
+    },
+    "https://www.samr.gov.cn/": {
+      "status": 200
+    },
+    "https://www.hkexnews.hk/": {
+      "status": 200
+    },
+    "https://www.restaurantbusinessonline.com/": {
+      "status": 200
+    },
+    "https://www.nrn.com/": {
+      "status": 200
+    },
+    "https://www.restaurantdive.com/": {
+      "status": 403
+    },
+    "https://qsrmagazine.com/": {
+      "status": 200
+    },
+    "https://restaurant.org/": {
+      "status": 200
+    },
+    "https://pos.toasttab.com/": {
+      "status": 403
+    },
+    "https://squareup.com/": {
+      "status": 200
+    },
+    "https://www.lightspeedhq.com/": {
+      "status": 200
+    },
+    "https://business.cornell.edu/nolan/": {
+      "status": 200
+    },
+    "https://www.eater.com/": {
+      "status": 200
+    },
+    "https://www.harpercollins.com/": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=Setting+the+Table+Danny+Meyer": {
+      "status": 200
+    },
+    "https://www.penguinrandomhouse.com/": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=Unreasonable+Hospitality+Will+Guidara": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+E-Myth+Revisited+Michael+Gerber": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=Restaurant+Success+by+the+Numbers+Roger+Fields": {
+      "status": 200
+    },
+    "https://openlibrary.org/": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+Restaurant+Managers+Handbook+Douglas+Robert+Brown": {
+      "status": 200
+    },
+    "https://www.bloomsbury.com/": {
+      "status": 403
+    },
+    "https://openlibrary.org/search?q=Kitchen+Confidential+Anthony+Bourdain": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+1-Page+Marketing+Plan+Allan+Dib": {
+      "status": 200
+    },
+    "https://www.entrepreneur.com/": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=Profit+First+Mike+Michalowicz": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+Goal+Eliyahu+Goldratt": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+Lean+Startup+Eric+Ries": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=%E6%B5%B7%E5%BA%95%E6%8D%9E%E4%BD%A0%E5%AD%A6%E4%B8%8D%E4%BC%9A": {
+      "status": 200
+    },
+    "https://www.haidilao.com/": {
+      "status": 200
+    },
+    "https://www.xibei.com.cn/": {
+      "status": 200
+    },
+    "https://www.jiumaojiu.com/": {
+      "status": 200
+    },
+    "https://www.sse.com.cn/": {
+      "status": 200
+    },
+    "https://www.sec.gov/edgar/searchedgar/companysearch": {
+      "status": 200
+    },
+    "https://www.mxbc.com/": {
+      "status": 200
+    },
+    "https://www.lkcoffee.com/": {
+      "status": 200
+    },
+    "https://www.heytea.com/": {
+      "status": 200
+    },
+    "http://www.banu.cn": {
+      "status": 200
+    },
+    "https://corporate.mcdonalds.com/": {
+      "status": 200
+    },
+    "https://www.starbucks.com/": {
+      "status": 200
+    },
+    "https://www.chipotle.com/": {
+      "status": 200
+    },
+    "https://ir.chipotle.com/": {
+      "status": 200
+    },
+    "https://www.shakeshack.com/": {
+      "status": 200
+    },
+    "https://www.in-n-out.com/": {
+      "status": 200
+    },
+    "https://www.dominos.com/": {
+      "status": 200
+    },
+    "https://www.nandos.com/": {
+      "status": 200
+    },
+    "https://www.pret.com/": {
+      "status": 200
+    },
+    "https://www.fiveguys.com/": {
+      "status": 200
+    },
+    "https://dtf.com/en-us": {
+      "status": 200
+    },
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code": {
+      "status": 200
+    },
+    "https://www.bls.gov/": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=The+E-Myth+Revisited": {
+      "status": 200
+    },
+    "https://openlibrary.org/search?q=Restaurant+Success+by+the+Numbers": {
+      "status": 429
+    },
+    "https://openlibrary.org/search?q=The+1-Page+Marketing+Plan": {
+      "status": 200
+    }
+  }
+}

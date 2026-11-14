@@ -1,0 +1,22 @@
+{
+  "mustRead": "busy-but-broke",
+  "topTen": [
+    "budget-30sqm",
+    "busy-but-broke",
+    "eight-metrics",
+    "menu-profit-machine",
+    "site-selection-mistakes",
+    "trade-area-check",
+    "gross-margin-trap",
+    "small-team-rules",
+    "food-waste-control",
+    "cashflow-13-weeks"
+  ],
+  "recentCases": [
+    "cashflow-13-weeks",
+    "supplier-and-purchasing",
+    "reviews-and-reputation"
+  ],
+  "toolPicks": ["roi", "pricing", "breakeven", "delivery"],
+  "overseas": ["mcdonalds-chipotle", "menu-profit-machine", "small-team-rules"]
+}

@@ -1,0 +1,19 @@
+[
+  { "label": "国家统计局 · 餐饮收入等统计数据", "url": "https://www.stats.gov.cn/", "note": "查宏观口径数据时以官方最新发布为准，注意统计口径与年份。" },
+  { "label": "中国饭店协会", "url": "https://www.chinahotel.org.cn/", "note": "行业协会公开报告、团体标准与行业活动信息。" },
+  { "label": "中国烹饪协会", "url": "https://www.ccas.com.cn/", "note": "《中国餐饮年鉴》《餐饮产业蓝皮书》等出版信息以协会公告为准。" },
+  { "label": "国家市场监督管理总局", "url": "https://www.samr.gov.cn/", "note": "食品安全、经营许可等事项请以所在地现行法规与监管部门要求为准。" },
+  { "label": "香港交易所披露易 HKEXnews", "url": "https://www.hkexnews.hk/", "note": "查询港股上市餐饮公司的年报、公告与经营数据。" },
+  { "label": "美国 SEC EDGAR", "url": "https://www.sec.gov/edgar/searchedgar/companysearch", "note": "查询美股上市餐饮公司的 10-K / 10-Q 原文。" },
+  { "label": "FDA Food Code（美国餐饮卫生示范规范）", "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code", "note": "美国示范性规范，不直接适用于中国内地，仅用于了解海外管理思路。" },
+  { "label": "U.S. National Restaurant Association", "url": "https://restaurant.org/", "note": "美国餐饮行业研究与数据，引用时须注明统计年份与美国市场条件。" },
+  { "label": "Cornell Nolan School of Hotel Administration", "url": "https://business.cornell.edu/nolan/", "note": "酒店与餐饮管理学术研究及公开教学资源。" },
+  { "label": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/", "note": "美国劳动力与价格数据，海外经营环境参考。" },
+  { "label": "Restaurant Success by the Numbers — Roger Fields", "note": "餐饮成本与财务指标的计算口径参考；本站只做原创观点摘要，不转载原文。" },
+  { "label": "The E-Myth Revisited — Michael E. Gerber", "note": "关于「把门店做成系统而非靠老板个人」的管理理论参考。" },
+  { "label": "Setting the Table — Danny Meyer", "note": "服务与顾客体验的经营管理参考。" },
+  { "label": "Unreasonable Hospitality — Will Guidara", "note": "服务差异化与体验设计参考。" },
+  { "label": "Profit First — Mike Michalowicz", "note": "现金流与利润优先思路的参考，具体做法需结合本地财税规则。" },
+  { "label": "《海底捞你学不会》— 黄铁鹰", "note": "国内餐饮管理案例读物；书中情境与年份需结合当下环境判断。" },
+  { "label": "Open Library 公开书目检索", "url": "https://openlibrary.org/", "note": "用于核对书名、作者与出版信息，非电子书下载来源。" }
+]

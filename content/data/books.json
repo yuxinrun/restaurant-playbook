@@ -1,0 +1,304 @@
+[
+  {
+    "slug": "setting-the-table",
+    "title": "Setting the Table",
+    "originalTitle": "Setting the Table: The Transforming Power of Hospitality in Business",
+    "author": "Danny Meyer",
+    "region": "国外",
+    "publisher": "HarperCollins",
+    "year": "2006",
+    "coverTone": "accent",
+    "summary": "纽约餐饮集团 Union Square Hospitality Group 创始人的经营回忆录。核心不是「服务要笑得露八颗牙」，而是把「被款待的感觉」做成一套可复制的选人、培训与复盘机制。读它最容易犯的错，是只学到送免费甜点。",
+    "keyIdeas": [
+      "服务是技术，款待是态度；技术能培训，态度得靠招人和制度护住",
+      "把「客人最后一次接触的感受」当成复盘重点，而不是盯着出错那一刻",
+      "扩张的前提是文化与人才供给，不是资金与铺位"
+    ],
+    "threeMethods": [
+      "每天收档记录一条「客人没说出口的不舒服」，写进次日班前会，只挑一条改",
+      "给一线员工设定明确授权额度（例如每桌可自主处理的上限），把补救从审批里解放出来",
+      "开店前先写下 5 条绝不妥协的经营原则，招人、供应商与合作都用它筛"
+    ],
+    "stage": "已开店 · 想提升服务与复购的老板 / 店长",
+    "rating": 5,
+    "tags": ["服务体验", "团队管理", "品牌定位"],
+    "officialUrl": "https://www.harpercollins.com/",
+    "officialLabel": "HarperCollins 出版社官网",
+    "catalogUrl": "https://openlibrary.org/search?q=Setting+the+Table+Danny+Meyer",
+    "note": "美国市场背景，人力成本、用工制度与顾客预期与国内不同；本站只提供原创读书笔记与观点摘要。"
+  },
+  {
+    "slug": "unreasonable-hospitality",
+    "title": "Unreasonable Hospitality",
+    "originalTitle": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
+    "author": "Will Guidara",
+    "region": "国外",
+    "publisher": "Penguin Publishing Group（Optimism Press）",
+    "year": "2022",
+    "coverTone": "gold",
+    "summary": "讲一家餐厅如何靠「不合常理的款待」做出差异化。真正值得抄的不是某个惊艳桥段，而是它背后的预算、授权和复盘机制——不然「给客人惊喜」最后会变成员工自掏腰包。",
+    "keyIdeas": [
+      "差异化不一定来自菜，也可以来自被记住的感觉",
+      "惊喜要有预算和边界，否则不可持续",
+      "把「规则」写成默认动作，把「例外」留给一线判断"
+    ],
+    "threeMethods": [
+      "设一笔小额「款待预算」，按月核算，别让它变成糊涂账",
+      "建立顾客偏好卡片（忌口、常坐位置、纪念日），但只记录客人主动提供的信息",
+      "每周复盘一次「哪次超出预期真正带来了复购」，无效的花活果断砍掉"
+    ],
+    "stage": "已开店 · 客单价中上、需要差异化的门店",
+    "rating": 5,
+    "tags": ["服务体验", "复购", "品牌定位"],
+    "officialUrl": "https://www.penguinrandomhouse.com/",
+    "officialLabel": "Penguin Random House 官网",
+    "catalogUrl": "https://openlibrary.org/search?q=Unreasonable+Hospitality+Will+Guidara",
+    "note": "书中案例以高端餐厅为主，小店请按自己的客单价与人力条件缩放。"
+  },
+  {
+    "slug": "e-myth-revisited",
+    "title": "The E-Myth Revisited",
+    "originalTitle": "The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It",
+    "author": "Michael E. Gerber",
+    "region": "国外",
+    "publisher": "HarperBusiness",
+    "year": "1995",
+    "coverTone": "olive",
+    "summary": "一本让很多老板不舒服的书：多数小店倒闭不是因为老板不够拼，而是因为老板同时是厨师、采购、保洁、客服和财务，门店离了谁都转不动。解法是把「会做」写成「谁都能照着做」。",
+    "keyIdeas": [
+      "在店里干活 ≠ 经营一家店，要区分技术工作与管理工作",
+      "把重复动作文档化，门店才可能脱离老板本人运转",
+      "先做「可复制的小系统」，再谈开第二家"
+    ],
+    "threeMethods": [
+      "选 3 个最容易出错的环节（开档、点单、收档），各写一页 SOP 卡片",
+      "每周让新人按 SOP 独立跑一次，卡住的地方就是文档该改的地方",
+      "老板每周固定留半天不在店里，用这段时间看数据而不是盯人"
+    ],
+    "stage": "准备开店 / 已开店 · 被琐事绑住的老板",
+    "rating": 5,
+    "tags": ["SOP", "组织管理", "连锁化"],
+    "officialUrl": "https://www.harpercollins.com/",
+    "officialLabel": "HarperCollins 出版社官网",
+    "catalogUrl": "https://openlibrary.org/search?q=The+E-Myth+Revisited+Michael+Gerber",
+    "note": "原书以美国小微商业为背景；涉及用工与 franchising 的章节需结合国内法规理解。"
+  },
+  {
+    "slug": "restaurant-success-by-the-numbers",
+    "title": "Restaurant Success by the Numbers",
+    "author": "Roger Fields",
+    "region": "国外",
+    "publisher": "Ten Speed Press",
+    "year": "2007",
+    "coverTone": "accent",
+    "summary": "一本把餐饮账算明白的实操书：预算、成本率、盈亏平衡、定价与现金流。它的价值不在某个「黄金比例」，而在坚持让你用同一套口径，把所有数字填进同一张表。",
+    "keyIdeas": [
+      "开店前先算保本线，再谈装修风格",
+      "成本要分为随单变化与不随单变化两类，否则利润永远算不清",
+      "预算表里必须留缓冲，开业后的意外从不提前打招呼"
+    ],
+    "threeMethods": [
+      "做乐观 / 中性 / 保守三套营业额预测，只看保守情形能否活过 6 个月",
+      "每周固定一张成本率表，只记录口径一致的数字",
+      "把「毛利率」与「贡献利润」「净利」分开命名，避免开会时各说各话"
+    ],
+    "stage": "准备开店 / 已开店 · 需要建立财务口径的老板",
+    "rating": 5,
+    "tags": ["成本结构", "盈亏平衡", "现金流"],
+    "officialUrl": "https://www.penguinrandomhouse.com/",
+    "officialLabel": "Ten Speed Press 所属出版集团官网",
+    "catalogUrl": "https://openlibrary.org/search?q=Restaurant+Success+by+the+Numbers+Roger+Fields",
+    "note": "书中比例来自美国餐饮经营环境，人工、租金与小费制度差异明显，不可直接套用。"
+  },
+  {
+    "slug": "restaurant-managers-handbook",
+    "title": "The Restaurant Manager's Handbook",
+    "author": "Douglas Robert Brown",
+    "region": "国外",
+    "publisher": "Atlantic Publishing",
+    "year": "首版 1982，后续多次修订",
+    "coverTone": "gold",
+    "summary": "偏工具书的大部头，从选址、菜单、采购到排班、卫生与培训几乎覆盖一遍。适合当目录查，不适合从头读到尾——真从头读，多半会在第三章就想去做点别的事。",
+    "keyIdeas": [
+      "门店管理是一组清单，不是一种天赋",
+      "采购、验收、库存、损耗要连成一条可追溯的链",
+      "培训材料应写清楚「做到什么程度算合格」"
+    ],
+    "threeMethods": [
+      "照着目录给自己的店做一次「缺项体检」，列出最缺的 3 项制度",
+      "把验收标准写成可核对的规格（重量、温度、品相），而非「新鲜即可」",
+      "给每个岗位做一张一页纸检查表，收档时签字"
+    ],
+    "stage": "已开店 · 需要补管理制度的店长 / 老板",
+    "rating": 4,
+    "tags": ["运营管理", "SOP", "食品安全"],
+    "officialUrl": "https://openlibrary.org/",
+    "officialLabel": "公开书目信息（Open Library）",
+    "catalogUrl": "https://openlibrary.org/search?q=The+Restaurant+Managers+Handbook+Douglas+Robert+Brown",
+    "note": "版本众多、法规内容以美国为主；食品安全与用工部分一律以所在地现行法规为准。"
+  },
+  {
+    "slug": "kitchen-confidential",
+    "title": "Kitchen Confidential",
+    "originalTitle": "Kitchen Confidential: Adventures in the Culinary Underbelly",
+    "author": "Anthony Bourdain",
+    "region": "国外",
+    "publisher": "Bloomsbury",
+    "year": "2000",
+    "coverTone": "olive",
+    "summary": "不是经营教材，是后厨纪实。它让外人第一次看清厨房里的分工、等级、节奏与脾气。老板读它，最容易学到的一件事是：出品不稳定，往往不是厨师态度问题，而是流程与人手配置问题。",
+    "keyIdeas": [
+      "后厨是一套高压协作系统，节奏比个人手艺更决定出餐速度",
+      "备料（mise en place）是稳定性的地基",
+      "忽视后厨的损耗与浪费，账面上迟早会体现"
+    ],
+    "threeMethods": [
+      "观察一个高峰时段，记录每单卡在「等料 / 等锅 / 等人」的哪一环",
+      "把开档备料做成带数量的清单，而不是凭师傅记忆",
+      "每周与后厨一起看一次退菜与损耗原因，先修流程再追责任"
+    ],
+    "stage": "所有餐饮从业者 · 尤其是没进过后厨的老板",
+    "rating": 4,
+    "tags": ["后厨管理", "出品稳定", "团队"],
+    "officialUrl": "https://www.bloomsbury.com/",
+    "officialLabel": "Bloomsbury 出版社官网",
+    "catalogUrl": "https://openlibrary.org/search?q=Kitchen+Confidential+Anthony+Bourdain",
+    "note": "成书年代较早，书中行业环境与用工文化已变化；作为观察视角阅读，不作为操作规范。"
+  },
+  {
+    "slug": "one-page-marketing-plan",
+    "title": "The 1-Page Marketing Plan",
+    "author": "Allan Dib",
+    "region": "国外",
+    "publisher": "公开书目信息见检索页",
+    "year": "2016",
+    "coverTone": "accent",
+    "summary": "把营销拆成「潜在客人 → 首次到店 → 反复光顾」一页纸。对小店特别友好，因为它逼你先选一个明确客群，而不是同时对所有人生效——优惠券发得越多，越说明没想清楚。",
+    "keyIdeas": [
+      "先定义客群，再选渠道，顺序反了就是烧钱",
+      "新客获取与老客复购要用不同动作、不同预算",
+      "一次只测一个变量，否则不知道是哪一个起了作用"
+    ],
+    "threeMethods": [
+      "用一页纸写清：目标客群、一个核心卖点、三个触达动作",
+      "把开业预算拆成拉新与复购两笔，分别设上限",
+      "每次活动只改一个变量（折扣 / 渠道 / 时段），记录结果"
+    ],
+    "stage": "准备开业 / 已开店 · 想少花冤枉钱的老板",
+    "rating": 4,
+    "tags": ["开业营销", "复购", "私域"],
+    "officialUrl": "https://openlibrary.org/",
+    "officialLabel": "公开书目信息（Open Library）",
+    "catalogUrl": "https://openlibrary.org/search?q=The+1-Page+Marketing+Plan+Allan+Dib",
+    "note": "出版方有多个版本与地区版本，本站不指定单一出版社；请通过公开书目核对后购买正版。"
+  },
+  {
+    "slug": "profit-first",
+    "title": "Profit First",
+    "originalTitle": "Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine",
+    "author": "Mike Michalowicz",
+    "region": "国外",
+    "publisher": "Entrepreneur Press",
+    "year": "2014",
+    "coverTone": "gold",
+    "summary": "主张先按比例把利润挪走，再用剩下的钱经营。对餐饮老板最有用的不是照搬账户体系，而是那个提醒：营业额经过你的账户，不等于你可以花。房租、货款和工资都在排队等它。",
+    "keyIdeas": [
+      "先看现金流，再看利润表",
+      "把税款、货款、工资与可动用资金分开放，避免错把代管的钱当利润",
+      "限制可用的钱，反而会逼出更清醒的成本决策"
+    ],
+    "threeMethods": [
+      "每周把食材货款、房租、工资按预估金额单独预留，不与其他资金混用",
+      "建立一张 8 周现金流滚动表，提前看到缺口而不是月底才发现",
+      "给自己定一条「不挪用下月货款做本月营销」的硬规矩"
+    ],
+    "stage": "已开店 · 营业额还行但账上总没钱的老板",
+    "rating": 4,
+    "tags": ["现金流", "财务纪律", "利润"],
+    "officialUrl": "https://www.entrepreneur.com/",
+    "officialLabel": "Entrepreneur Press 所属媒体官网",
+    "catalogUrl": "https://openlibrary.org/search?q=Profit+First+Mike+Michalowicz",
+    "note": "书中账户设置基于美国银行与税制；税务与账户处理请咨询本地专业人士。"
+  },
+  {
+    "slug": "the-goal",
+    "title": "The Goal",
+    "author": "Eliyahu M. Goldratt / Jeff Cox",
+    "region": "国外",
+    "publisher": "North River Press",
+    "year": "1984",
+    "coverTone": "olive",
+    "summary": "一本讲工厂瓶颈的小说，却把「出餐慢」讲得比多数餐饮书都清楚：整条线的产出由最慢的那一环决定，其他环节拼命干只会堆在制品。把「灶台」换成「工厂」，很多店的问题一下就明白了。",
+    "keyIdeas": [
+      "系统产出由瓶颈决定，非瓶颈的忙碌不等于有效产出",
+      "先找到瓶颈，再决定要不要加人加设备",
+      "局部最优常常损害整体效率"
+    ],
+    "threeMethods": [
+      "高峰时段用秒表记录每单在备料、烹制、打包、传菜各环节的等待时间",
+      "把瓶颈岗位前移备料或非瓶颈支援，先别急着招人",
+      "用「每小时出餐数」而不是「每个人忙不忙」评估排班"
+    ],
+    "stage": "已开店 · 出餐慢、高峰期混乱的门店",
+    "rating": 4,
+    "tags": ["后厨管理", "流程优化", "人效"],
+    "officialUrl": "https://openlibrary.org/",
+    "officialLabel": "公开书目信息（Open Library）",
+    "catalogUrl": "https://openlibrary.org/search?q=The+Goal+Eliyahu+Goldratt",
+    "note": "非餐饮专著，本站只借鉴其瓶颈管理思路。"
+  },
+  {
+    "slug": "the-lean-startup",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "region": "国外",
+    "publisher": "Crown Business / Penguin Random House",
+    "year": "2011",
+    "coverTone": "accent",
+    "summary": "讲「先做最小验证再投入」的创业方法论。放到餐饮里就是：别一上来把全部积蓄砸进装修，先用小范围试卖验证一个品类、一个价格带和一群真实顾客。试错要便宜，别拿店租试错。",
+    "keyIdeas": [
+      "把商业假设写成可验证的问题，而不是写在商业计划书里自我感动",
+      "用最小成本的实验换真实反馈",
+      "区分「虚荣指标」与能指导决策的指标"
+    ],
+    "threeMethods": [
+      "开业前做 3 轮小规模试卖，只测一个核心菜品与一个价格",
+      "为每次实验写下「什么结果就说明该放弃」的判定线",
+      "复盘时看复购与单份贡献利润，而不是只看当天排了多长的队"
+    ],
+    "stage": "准备开店 / 想试新品类的创业者",
+    "rating": 4,
+    "tags": ["创业方法", "验证", "试营业"],
+    "officialUrl": "https://www.penguinrandomhouse.com/",
+    "officialLabel": "Penguin Random House 官网",
+    "catalogUrl": "https://openlibrary.org/search?q=The+Lean+Startup+Eric+Ries",
+    "note": "原书面向科技创业；餐饮试卖须先确认所在地对食品经营场所、许可与临时经营的要求。"
+  },
+  {
+    "slug": "haidilao-you-xue-bu-hui",
+    "title": "海底捞你学不会",
+    "author": "黄铁鹰",
+    "region": "国内",
+    "publisher": "中信出版社",
+    "year": "2011",
+    "coverTone": "accent",
+    "summary": "国内餐饮管理案例里流传最广的一本。它真正有价值的部分，是解释「服务为什么学不会」：授权、晋升、薪酬与信任是一整套系统，只抄「帮客人拎包」这一步，通常只能收获一肚子委屈的员工。",
+    "keyIdeas": [
+      "服务表象背后是授权与激励制度",
+      "一线员工的判断空间，需要配套的容错成本",
+      "制度与人的关系，比口号更决定门店气质"
+    ],
+    "threeMethods": [
+      "列出你愿意给一线的 3 项具体授权与金额上限，写进制度",
+      "把员工晋升标准写成可核对的条件，而不是「看表现」",
+      "每次顾客投诉复盘时，先问流程哪里让人没法做对"
+    ],
+    "stage": "已开店 · 想做服务差异化的老板 / 店长",
+    "rating": 4,
+    "tags": ["服务管理", "团队激励", "国内案例"],
+    "officialUrl": "https://openlibrary.org/",
+    "officialLabel": "公开书目信息（Open Library）",
+    "catalogUrl": "https://openlibrary.org/search?q=%E6%B5%B7%E5%BA%95%E6%8D%9E%E4%BD%A0%E5%AD%A6%E4%B8%8D%E4%BC%9A",
+    "note": "成书于 2011 年，行业环境、用工成本与数字化程度已明显变化；请结合当下条件阅读。国内餐饮书目仅收录可核实出版信息的条目。"
+  }
+]

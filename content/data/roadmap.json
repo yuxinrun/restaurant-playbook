@@ -1,0 +1,134 @@
+[
+  {
+    "id": "research",
+    "order": 1,
+    "title": "市场调研",
+    "phase": "想清楚再开店",
+    "goal": "搞清楚这个品类靠什么赚钱，以及你凭什么能赚到。",
+    "tasks": ["连续 7 天记录目标品类的客流与客单", "拆解 3 家同类门店的产品结构与价格带", "写下自己的资金上限与可承受亏损月份"],
+    "mistakes": ["先看铺子再看市场，顺序反了", "把「我觉得好吃」当成「有人愿意反复付钱」"],
+    "articles": ["budget-30sqm", "busy-but-broke"],
+    "tools": ["roi", "breakeven"]
+  },
+  {
+    "id": "trade-area",
+    "order": 2,
+    "title": "商圈分析",
+    "phase": "想清楚再开店",
+    "goal": "判断这里的人，在什么时间、以什么理由会走进你的店。",
+    "tasks": ["分工作日/周末、午餐/晚餐各数 3 次人流", "画出 500 米内的办公、社区、学校与竞品分布", "列出人群画像与真实消费场景"],
+    "mistakes": ["只数人流不看动线与停留理由", "忽略午晚市客群完全不同"],
+    "articles": ["trade-area-check", "site-selection-mistakes"],
+    "tools": ["rent"]
+  },
+  {
+    "id": "site",
+    "order": 3,
+    "title": "选址",
+    "phase": "市场与选址",
+    "goal": "用一张评分表替代「这个铺子感觉不错」。",
+    "tasks": ["给每个候选点位按租金、可见性、动线、排烟、面积打分", "核算租金占预估营业额比例", "确认消防、排烟、餐饮经营许可等前置条件"],
+    "mistakes": ["为了便宜选了没有餐饮条件的铺子", "只算月租，不算转让费、押金与免租期"],
+    "articles": ["site-selection-mistakes", "trade-area-check"],
+    "tools": ["rent", "roi"]
+  },
+  {
+    "id": "positioning",
+    "order": 4,
+    "title": "品牌定位",
+    "phase": "品牌与产品",
+    "goal": "用一句话说清：谁、在什么场景、为什么选你。",
+    "tasks": ["写出一句能被顾客复述的定位", "确定价格带与主力客群", "列出「坚决不做」的三件事"],
+    "mistakes": ["什么都想卖，最后谁都记不住", "把装修风格当成品牌定位"],
+    "articles": ["menu-profit-machine", "mcdonalds-chipotle"],
+    "tools": ["pricing"]
+  },
+  {
+    "id": "menu",
+    "order": 5,
+    "title": "菜单设计",
+    "phase": "品牌与产品",
+    "goal": "让菜单同时完成三件事：好点、好做、好赚。",
+    "tasks": ["逐菜核算食材成本与目标毛利", "把菜品按销量 × 毛利放进四象限", "控制 SKU 数量，砍掉长尾与难标准化的菜"],
+    "mistakes": ["按厨师会的菜排菜单，不按顾客点的菜", "只看毛利率，不看单份毛利与销量"],
+    "articles": ["menu-profit-machine", "gross-margin-trap"],
+    "tools": ["pricing", "delivery"]
+  },
+  {
+    "id": "cost-model",
+    "order": 6,
+    "title": "成本测算",
+    "phase": "品牌与产品",
+    "goal": "在花钱之前，先算出保本线与最坏情况。",
+    "tasks": ["列出初始投资清单并预留流动资金", "测算固定成本、变动成本率与盈亏平衡营业额", "做乐观/中性/保守三种营业额情形"],
+    "mistakes": ["忘记预留 3–6 个月流动资金", "把毛利当净利，忽略人工与房租"],
+    "articles": ["budget-30sqm", "eight-metrics", "gross-margin-trap", "cashflow-13-weeks"],
+    "tools": ["roi", "breakeven", "pricing"]
+  },
+  {
+    "id": "buildout",
+    "order": 7,
+    "title": "装修筹备",
+    "phase": "开业筹备",
+    "goal": "把钱花在动线和出品效率上，而不是花在拍照好看上。",
+    "tasks": ["先后厨动线、再前厅座位，最后才是装饰", "设备清单标注功率、尺寸与保修", "给排水、排烟、电力容量做专业复核"],
+    "mistakes": ["装修超支后砍掉设备预算", "没做排烟就被迫返工"],
+    "articles": ["budget-30sqm", "site-selection-mistakes"],
+    "tools": ["roi"]
+  },
+  {
+    "id": "supply",
+    "order": 8,
+    "title": "供应商与备货",
+    "phase": "开业筹备",
+    "goal": "拿到稳定的价格、品质与到货时间，而不是只拿到最低报价。",
+    "tasks": ["每类核心原料至少备选 2 家供应商", "约定规格、验收标准与退换货规则", "设定安全库存与订货周期"],
+    "mistakes": ["只比单价，不比出成率与损耗", "开业前一次性压满货"],
+    "articles": ["food-waste-control", "eight-metrics", "supplier-and-purchasing"],
+    "tools": ["pricing"]
+  },
+  {
+    "id": "hiring",
+    "order": 9,
+    "title": "招聘培训",
+    "phase": "开业筹备",
+    "goal": "把「老板盯着才不出错」变成「流程盯着就不出错」。",
+    "tasks": ["写清岗位职责与班次", "把开档、点单、出品、收档写成 SOP 卡片", "开业前完成至少 2 轮全流程演练"],
+    "mistakes": ["只做口头交代，没有书面标准", "开业当天才第一次让新人独立操作"],
+    "articles": ["small-team-rules", "slow-kitchen", "labor-scheduling"],
+    "tools": ["turnover"]
+  },
+  {
+    "id": "soft-opening",
+    "order": 10,
+    "title": "试营业",
+    "phase": "正式经营",
+    "goal": "用最小的客流，暴露最多的问题。",
+    "tasks": ["限定菜单与接单量，逐桌收集反馈", "记录每道菜的实际出餐时间与退菜原因", "每天收档后开 15 分钟复盘会"],
+    "mistakes": ["试营业就做全场打折，把压力测试变成流量测试", "问题记在脑子里，第二天照旧"],
+    "articles": ["slow-kitchen", "first-month-marketing", "reviews-and-reputation"],
+    "tools": ["turnover", "breakeven"]
+  },
+  {
+    "id": "opening",
+    "order": 11,
+    "title": "正式开业",
+    "phase": "正式经营",
+    "goal": "让第一批客人愿意来第二次，而不是只来拍一次照。",
+    "tasks": ["开业活动设置可承受的补贴上限", "把新客引导到可触达的会员/社群", "盯紧出品速度与差评关键词"],
+    "mistakes": ["用超低折扣买来一批只认价格的客人", "活动结束才发现没有留下任何客户联系方式"],
+    "articles": ["first-month-marketing", "repeat-purchase"],
+    "tools": ["delivery", "breakeven"]
+  },
+  {
+    "id": "operations",
+    "order": 12,
+    "title": "日常运营与优化",
+    "phase": "正式经营",
+    "goal": "每周用同一套指标复盘，只改最疼的那一件事。",
+    "tasks": ["固定每周看 8 个核心指标与菜品四象限", "每月复盘损耗、人效与复购", "每季度决定是否调整菜单与价格带"],
+    "mistakes": ["凭感觉改菜、改价、改活动，三件事一起改", "营业额涨了就以为问题解决了"],
+    "articles": ["eight-metrics", "cashflow-13-weeks", "busy-but-broke", "repeat-purchase", "second-store-checklist"],
+    "tools": ["breakeven", "roi", "turnover"]
+  }
+]

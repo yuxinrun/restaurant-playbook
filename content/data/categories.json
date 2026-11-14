@@ -1,0 +1,62 @@
+[
+  {
+    "id": "start",
+    "index": "A",
+    "name": "开店之前",
+    "subtitle": "Before you sign the lease",
+    "description": "签字之前把钱、人、位置和品类想明白。房租不会因为你有梦想就便宜一点。",
+    "href": "/guide",
+    "topics": ["餐饮创业是否适合你", "开店预算怎么做", "选址方法", "商圈分析", "竞争对手分析", "品牌定位"],
+    "tone": "accent"
+  },
+  {
+    "id": "product",
+    "index": "B",
+    "name": "产品与菜单",
+    "subtitle": "The menu is a machine",
+    "description": "菜单不是菜品清单，是一台赚钱机器。定价、结构、毛利与出品稳定，都得写进表里。",
+    "href": "/menu",
+    "topics": ["菜品研发", "菜单工程", "定价策略", "菜品毛利", "爆品打造", "产品组合", "出品标准化"],
+    "tone": "gold"
+  },
+  {
+    "id": "operations",
+    "index": "C",
+    "name": "门店运营",
+    "subtitle": "What happens on Tuesday afternoon",
+    "description": "老板每天最忙的时候，通常是发现自己什么都没管好的时候。流程比激情靠得住。",
+    "href": "/operations",
+    "topics": ["服务流程", "后厨管理", "员工招聘", "排班制度", "食品安全", "库存管理", "供应链管理", "店长管理"],
+    "tone": "olive"
+  },
+  {
+    "id": "marketing",
+    "index": "D",
+    "name": "营销增长",
+    "subtitle": "Please come back",
+    "description": "生意不好，不一定是营销不够，可能是你的菜真的不好吃。先修产品，再买流量。",
+    "href": "/marketing",
+    "topics": ["开业营销", "私域运营", "短视频营销", "点评运营", "外卖运营", "会员体系", "复购率提升"],
+    "tone": "accent"
+  },
+  {
+    "id": "finance",
+    "index": "E",
+    "name": "财务与数据",
+    "subtitle": "Where did the money go",
+    "description": "菜品毛利率很高，不代表你能赚钱，毕竟员工也要吃饭。把口径统一，账才算得清。",
+    "href": "/finance",
+    "topics": ["成本结构", "毛利率", "净利润", "现金流", "盈亏平衡", "翻台率", "坪效", "人效"],
+    "tone": "gold"
+  },
+  {
+    "id": "cases",
+    "index": "F",
+    "name": "品牌案例",
+    "subtitle": "What can actually be copied",
+    "description": "不只讲成功故事，更关心哪些方法普通小店真能用，哪些一照搬就翻车。",
+    "href": "/brands",
+    "topics": ["国内品牌", "国外品牌", "失败案例", "连锁化案例", "小店案例", "单品店案例"],
+    "tone": "olive"
+  }
+]

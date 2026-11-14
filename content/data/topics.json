@@ -1,0 +1,79 @@
+[
+  {
+    "id": "startup",
+    "title": "餐饮创业与门店经营",
+    "description": "风险、预算、合伙与开业筹备：先把「最坏情况」算清楚，再谈梦想。",
+    "links": [
+      { "label": "国家统计局（餐饮收入口径）", "url": "https://www.stats.gov.cn/" },
+      { "label": "中国饭店协会（行业报告与标准）", "url": "https://www.chinahotel.org.cn/" },
+      { "label": "餐饮界（中小门店经营资讯）", "url": "https://www.canyinj.com/" }
+    ],
+    "reading": "先读本站《开一家 30 平方米的小餐馆，到底需要准备多少钱？》，再用投资回报计算器做保守情形。"
+  },
+  {
+    "id": "chain",
+    "title": "餐饮连锁管理",
+    "description": "SOP、督导、店长梯队与第二家店：可复制性比第一家店的好生意更重要。",
+    "links": [
+      { "label": "Restaurant Business（连锁运营报道）", "url": "https://www.restaurantbusinessonline.com/" },
+      { "label": "QSR Magazine（标准化与特许经营）", "url": "https://qsrmagazine.com/" },
+      { "label": "《The E-Myth Revisited》公开书目", "url": "https://openlibrary.org/search?q=The+E-Myth+Revisited" }
+    ],
+    "reading": "对照本站「扩张坑」与「老板，这个坑你最好别踩」栏目，检查老板离店两周后指标是否稳定。"
+  },
+  {
+    "id": "menu-rd",
+    "title": "菜单设计与产品研发",
+    "description": "成本卡、定价、四象限与标准化：菜单是财务工具，不只是菜品清单。",
+    "links": [
+      { "label": "Toast Restaurant Resources（菜单工程）", "url": "https://pos.toasttab.com/" },
+      { "label": "Lightspeed Restaurant Resources", "url": "https://www.lightspeedhq.com/" },
+      { "label": "《Restaurant Success by the Numbers》公开书目", "url": "https://openlibrary.org/search?q=Restaurant+Success+by+the+Numbers" }
+    ],
+    "reading": "读本站《菜单不是菜品清单，而是一台赚钱机器》，再用菜品定价计算器逐菜核价。"
+  },
+  {
+    "id": "brand-marketing",
+    "title": "餐饮品牌营销",
+    "description": "开业、私域、点评与复购：把预算花在能留下顾客的动作上。",
+    "links": [
+      { "label": "餐饮老板内参（品牌案例）", "url": "https://canyinlaoban.cn/" },
+      { "label": "红餐网（品牌与品类动态）", "url": "https://www.canyin88.com/" },
+      { "label": "《The 1-Page Marketing Plan》公开书目", "url": "https://openlibrary.org/search?q=The+1-Page+Marketing+Plan" }
+    ],
+    "reading": "配合本站「开业第一个月，钱该花在哪儿？」与外卖利润计算器，先算补贴后的贡献利润。"
+  },
+  {
+    "id": "supply",
+    "title": "餐饮供应链与损耗",
+    "description": "净料率、验收标准、周转天数与安全库存：便宜写在报价单上，成本写在垃圾桶里。",
+    "links": [
+      { "label": "窄门餐眼（供应商与品牌数据）", "url": "https://www.canyandata.com/" },
+      { "label": "国家市场监督管理总局（食品安全法规）", "url": "https://www.samr.gov.cn/" },
+      { "label": "Restaurant Dive（供应链报道）", "url": "https://www.restaurantdive.com/" }
+    ],
+    "reading": "读本站《餐饮店如何控制食材损耗？》，再建立每周损耗率表。"
+  },
+  {
+    "id": "finance",
+    "title": "餐饮财务与服务管理",
+    "description": "成本结构、现金流、人效与顾客体验：把口径统一，账才算得清。",
+    "links": [
+      { "label": "中国烹饪协会（年鉴与蓝皮书信息）", "url": "https://www.ccas.com.cn/" },
+      { "label": "香港交易所披露易（上市餐企财报）", "url": "https://www.hkexnews.hk/" },
+      { "label": "Cornell Nolan School（服务管理研究）", "url": "https://business.cornell.edu/nolan/" }
+    ],
+    "reading": "读本站《餐饮老板必须搞懂的 8 个经营指标》与《餐饮毛利率 80%，为什么老板还是没钱？》。"
+  },
+  {
+    "id": "people-service",
+    "title": "门店用工与服务管理",
+    "description": "排班、人效、SOP 与顾客体验：服务不是态度问题，是工时投在哪个时段的问题。",
+    "links": [
+      { "label": "中国饭店协会（行业公开资料）", "url": "https://www.chinahotel.org.cn/" },
+      { "label": "Cornell Nolan School（服务管理研究）", "url": "https://business.cornell.edu/nolan/" },
+      { "label": "国家市场监督管理总局（食品安全与经营合规）", "url": "https://www.samr.gov.cn/" }
+    ],
+    "reading": "读本站《排班表其实是财务表：忙时缺人、闲时人多怎么破》与《评分从 4.8 掉到 4.3：差评该怎么救》，再用翻台率计算器核高峰产能。"
+  }
+]
